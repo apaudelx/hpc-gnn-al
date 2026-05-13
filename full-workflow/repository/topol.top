@@ -1,0 +1,13 @@
+#include "martini_v3.0.0_EO.itp"
+#include "martini_v3.0.0_small_molecules_v1.itp"
+#include "martini_v3.0.0_solvents_v1.itp"
+#include "peg_pla.itp"
+#include "res.itp"
+
+[ system ]
+small_molecule in water
+
+[ molecules ]
+peg_pla	40
+res		60
+W       14500

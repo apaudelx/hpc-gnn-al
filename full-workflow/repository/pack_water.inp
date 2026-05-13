@@ -1,0 +1,12 @@
+tolerance 3.0
+output peg_pla_pes_solvated.pdb
+
+structure peg_pla_min.pdb
+   number 40
+  inside box 0.0 0.0 0.0 120.0 120.0 120.0
+end structure
+
+structure res_min.pdb
+   number	60
+   inside box 0.0 0.0 0.0 120.0 120.0 150.0
+end structure

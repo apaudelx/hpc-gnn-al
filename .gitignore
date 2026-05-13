@@ -1,0 +1,52 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# OS/editor files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Local Slurm/job logs
+*.out
+*.err
+slurm-*.out
+
+# GNN outputs and active-learning generated state
+dee_gnn/results/
+dee_gnn/active_learning/logs/
+dee_gnn/active_learning/iterations/
+dee_gnn/active_learning/ensemble/
+dee_gnn/active_learning/combined_data/
+dee_gnn/active_learning/updated_training.csv
+dee_gnn/active_learning/tracker.json
+
+# Simulation generated outputs
+full-workflow/out_beads/
+full-workflow/batches/
+full-workflow/*_*.out
+full-workflow/*_*.err
+
+# Large model/checkpoint artifacts
+*.pt
+*.pth
+*.ckpt
+*.joblib
+
+# Local analysis scratch outputs
+analysis_plots/
+predictions.csv
+backup_README.md
